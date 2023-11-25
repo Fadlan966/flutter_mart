@@ -20,7 +20,7 @@ class MySplashScreen extends StatelessWidget {
           childWidget: SizedBox(
             height: 200,
             width: 200,
-            child: Image.asset("assets/logo.png"),
+            child: Image.asset("assets/Logoku.png"),
           ),
           onAnimationEnd: () => debugPrint("On Fade In End"),
           nextScreen: const Nav(),
